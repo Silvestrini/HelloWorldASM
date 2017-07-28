@@ -19,4 +19,4 @@ main:
 section .data
   msg db 'Displaying 9 stars', 0xa
   len equ $ -msg
-  s2 times 9 db '*'
+  s2 times 9 db '*' ; ARRAY OF 9 STARS (TIMES IS USED TO DEFINE ARRAYS AND TABLES)
